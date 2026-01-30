@@ -60,7 +60,7 @@ for any real number `x`.
 ## Usage
 
 ```javascript
-import sincf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincf@esm/index.mjs';
+import sincf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincf@v0.1.0-esm/index.mjs';
 ```
 
 #### sincf( x )
@@ -99,7 +99,7 @@ v = sincf( NaN );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import sincf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincf@esm/index.mjs';
+import sincf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincf@v0.1.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
