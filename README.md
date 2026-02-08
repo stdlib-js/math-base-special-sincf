@@ -60,7 +60,7 @@ for any real number `x`.
 ## Usage
 
 ```javascript
-import sincf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincf@deno/mod.js';
+import sincf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincf@v0.1.1-deno/mod.js';
 ```
 
 #### sincf( x )
@@ -94,7 +94,7 @@ v = sincf( NaN );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import sincf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincf@deno/mod.js';
+import sincf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincf@v0.1.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float32'
