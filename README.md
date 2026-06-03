@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Compute the [cardinal sine][sinc] of a single-precision floating-point number (in radians).
+> Compute the [cardinal sine][sinc] of a single-precision floating-point number.
 
 <section class="intro">
 
@@ -83,7 +83,7 @@ var sincf = require( '@stdlib/math-base-special-sincf' );
 
 #### sincf( x )
 
-Computes the normalized [cardinal sine][sinc] of a single-precision floating-point number (in radians).
+Computes the normalized [cardinal sine][sinc] of a single-precision floating-point number.
 
 ```javascript
 var v = sincf( 0.5 );
@@ -154,7 +154,7 @@ logEachMap( 'sincf( %0.4f ) = %0.4f', x, sincf );
 
 #### stdlib_base_sincf( x )
 
-Computes the normalized [cardinal sine][sinc] of a single-precision floating-point number (in radians).
+Computes the normalized [cardinal sine][sinc] of a single-precision floating-point number.
 
 ```c
 float y = stdlib_base_sincf( 0.5f );
